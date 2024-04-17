@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+   
+#tax-form{
+  width: 45vh;
+  height: 55vh;
+  border: 2px solid #869e9dc4;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin: 10%;
+  text-align: left;
+  row-gap: 12px;
+  margin-left: 22rem;
+}
+
+#tax-form h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label{
+  font-size: 15px;
+}
+select{
+  margin-top: -10px;
+}
+input{
+  margin-top: -10px;
+}
+
+
+#result{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #5d34e6 ;
+  color: white;
+}
+
+.tooltip-icon{
+  height: 14px;
+  width: 14px;
+}
+
+.container-popup {
+  position: relative;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
+.popup {
+  width: 35%;
+  height: 30%;
+  background: white;
+  position: absolute;
+  border: 1px solid gray;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.popup-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#error {
+  display: block;
+  color: red;
+  margin: 5px 0 0 0;
+}
+ 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="taxcalc.css">
+     <script src="taxcalc.js" defer ></script>
+     <title>Tax-Calculator</title>
+</head>
+<body>
+
+   
+ 
+    <form id="tax-form">
+
+      <h3> Tax Calculator </h3>
+
+      <label for="annual-income"> Enter gross annual income <img title="Gross Annula Income is your total salary in a year before any deductions" class="tooltip-icon" src="./question-mark-circle-outline-icon.png" /></label>
+      <input type="" class="gross-income" placeholder="Enter gross annual income ">
+      
+
+      <label for="extra-income">Enter extra income  <img title="Income othen than gross-income"class="tooltip-icon" src="./question-mark-circle-outline-icon.png" /></label>
+      <input type="" class="extra-income" placeholder="Enter extra income from other sources" />
+
+      <label for="age">Enter age group <img title="age must be greater than 18" class="tooltip-icon" src="./question-mark-circle-outline-icon.png" /></label>
+      <select class="age">
+        <option value="" selected disabled>Select age group </option>
+        <option value="39"> <40</option>
+        <option value="49"><=40 & <60</option>
+        <option value="60"> 60>=</option>
+      </select>
+      <label for="deduction">Enter total applicable deduction  <img title="overall deduction" class="tooltip-icon" src="./question-mark-circle-outline-icon.png" /></label>
+      <input type="" class="deductions" placeholder="Add total applicable deduction">
+
+
+     <button type="submit" id="result">Submit</button>
+
+     <div class="container-popup">
+      <div class="popup">
+        <div class="popup-content">
+          <p>Your overall income will be <label id="income"></label></p>
+          <button id="result" class="close-popup">Close</button>
+        </div>
+      </div>
+     </div>
+
+    </form>
+    
+
+ 
+</body>
+</html>
+
+
+
+

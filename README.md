@@ -39,6 +39,11 @@ Contributions are welcome! Feel free to create pull requests with improvements o
 *   The tax calculation logic is simplified for demonstration purposes; real-world tax calculations may be more complex.
 *   This project is educational and should not be used for actual tax filing.
 
-## Images 
+## Test Case Screenshots
+* First Case: when total income < 8 LPA
+![Screenshot 2024-04-17 230916](https://github.com/kumardeveshjha/Tax-Calculator/assets/117355571/08943e18-4557-42c7-b3b1-653c3d7cbaa8)
+![Screenshot 2024-04-17 230936](https://github.com/kumardeveshjha/Tax-Calculator/assets/117355571/70a52e2c-7df8-402d-a1cd-b4d67c255048)
+
+*Second Case: When total income >= 8 LPA
 
 Please let me know if you have any questions or feedback.

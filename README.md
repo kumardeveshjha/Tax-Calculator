@@ -45,5 +45,7 @@ Contributions are welcome! Feel free to create pull requests with improvements o
 ![Screenshot 2024-04-17 230936](https://github.com/kumardeveshjha/Tax-Calculator/assets/117355571/70a52e2c-7df8-402d-a1cd-b4d67c255048)
 
 *Second Case: When total income >= 8 LPA
+![Screenshot 2024-04-17 231532](https://github.com/kumardeveshjha/Tax-Calculator/assets/117355571/549e7944-a74e-48a8-bd4d-71e0d9b94b8d)
+![Screenshot 2024-04-17 231551](https://github.com/kumardeveshjha/Tax-Calculator/assets/117355571/b39c0863-e091-4589-97cb-bd72583943d5)
 
 Please let me know if you have any questions or feedback.
